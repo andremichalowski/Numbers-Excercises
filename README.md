@@ -1,0 +1,1 @@
+JS Excercises: https://www.youtube.com/watch?v=N65RvNkZFGE
