@@ -11,3 +11,4 @@ console.log(isEqualTo100(10,0));
 console.log(isEqualTo100(0,10));
 
 console.log(isEqualTo100(20,80));
+console.log(isEqualTo100(50,50));
