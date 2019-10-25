@@ -8,3 +8,4 @@ console.log(isEqualTo100(100,0));
 console.log(isEqualTo100(0,100));
 
 console.log(isEqualTo100(10,0));
+console.log(isEqualTo100(0,10));
