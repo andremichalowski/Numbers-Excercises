@@ -12,3 +12,8 @@ console.log(isEqualTo100(0,10));
 
 console.log(isEqualTo100(20,80));
 console.log(isEqualTo100(50,50));
+
+
+// 2. Write a javascript program to get the extension
+// of a filename.
+
