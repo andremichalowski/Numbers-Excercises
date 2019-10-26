@@ -40,3 +40,9 @@ const moveCharsForward = (str) =>
 
 console.log(moveCharsForward('z'));
 
+
+
+// 4. Write a JS prgrm to get the current date.
+
+
+
