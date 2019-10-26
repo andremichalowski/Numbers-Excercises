@@ -17,3 +17,4 @@ console.log(isEqualTo100(50,50));
 // 2. Write a javascript program to get the extension
 // of a filename.
 
+const getFileExtension = (str) => str.slice (str.lastIndexOf('.'));
