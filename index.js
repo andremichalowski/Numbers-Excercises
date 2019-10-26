@@ -14,6 +14,7 @@ console.log(isEqualTo100(20,80));
 console.log(isEqualTo100(50,50));
 
 
+
 // 2. Write a javascript program to get the extension
 // of a filename.
 
@@ -21,3 +22,13 @@ const getFileExtension = (str) => str.slice (str.lastIndexOf('.'));
 
 console.log(getFileExtension('index.html'));
 console.log(getFileExtension('webpack.config.js'));
+
+
+
+// 3. Write a JavaScript program to replace every 
+// character in a given string with the 
+// character following it in the alphabet.
+
+//String.fromCharCode
+charCodeAt
+
