@@ -48,6 +48,7 @@ const formatDate = (date = new Date()) => {
     const days = date.getDay();
     const months = date.getMonth();
     const years = date.getFullYear();
-    return ~${days}/${months}/${years}`;`
+    return `${days}/${months}/${years}`;
 }
 
+console.log(formatDate());
