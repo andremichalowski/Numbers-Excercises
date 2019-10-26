@@ -20,3 +20,4 @@ console.log(isEqualTo100(50,50));
 const getFileExtension = (str) => str.slice (str.lastIndexOf('.'));
 
 console.log(getFileExtension('index.html'));
+console.log(getFileExtension('webpack.config.js'));
