@@ -18,3 +18,5 @@ console.log(isEqualTo100(50,50));
 // of a filename.
 
 const getFileExtension = (str) => str.slice (str.lastIndexOf('.'));
+
+console.log(getFileExtension('index.html'));
