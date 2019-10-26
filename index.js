@@ -29,6 +29,6 @@ console.log(getFileExtension('webpack.config.js'));
 // character in a given string with the 
 // character following it in the alphabet.
 
-//String.fromCharCode
-charCodeAt
+// String.fromCharCode
+// charCodeAt
 
