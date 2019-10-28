@@ -61,5 +61,8 @@ const addNew = (str) =>
 console.log(addNew(`New! Offers`));
 // === strict operator
 // ? str : turnary operator
+
+
+
 //- RETURN LINK -//
-https://youtu.be/N65RvNkZFGE?t=659
+JS-I: https://youtu.be/N65RvNkZFGE?t=659
