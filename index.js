@@ -45,7 +45,7 @@ console.log(moveCharsForward('z'));
 // 4. Write a JS prgrm to get the current date.
 
 const formatDate = (date = new Date()) => {
-    const days = date.getDay();
+    const days = date.getDate();
     const months = date.getMonth();
     const years = date.getFullYear();
     return `${days}/${months}/${years}`;
@@ -53,4 +53,10 @@ const formatDate = (date = new Date()) => {
 
 console.log(formatDate());
 
+// 5. Write a JS program to create a new string adding "New!" in front of a given string. 
+// If the given string begins with "New!" already then return the original string.
+
+
+
+//- RETURN LINK -//
 https://youtu.be/N65RvNkZFGE?t=659
