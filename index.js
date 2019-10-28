@@ -56,7 +56,8 @@ console.log(formatDate());
 // 5. Write a JS program to create a new string adding "New!" in front of a given string. 
 // If the given string begins with "New!" already then return the original string.
 
-
+const addNew = (str) => `New! ${str}`;
+console.log(addNew(offers.))
 
 //- RETURN LINK -//
 https://youtu.be/N65RvNkZFGE?t=659
