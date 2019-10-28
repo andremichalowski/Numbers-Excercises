@@ -59,6 +59,7 @@ console.log(formatDate());
 const addNew = (str) => 
     str.index)f(`New!`) === 0 ? str : `New! ${str}`;
 console.log(addNew(`New! Offers`));
+// === strict operator
 
 //- RETURN LINK -//
 https://youtu.be/N65RvNkZFGE?t=659
