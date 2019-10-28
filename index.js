@@ -57,9 +57,9 @@ console.log(formatDate());
 // If the given string begins with "New!" already then return the original string.
 
 const addNew = (str) => 
-    str.index)f(`New!`) === 0 ? str : `New! ${str}`;
+    str.indexof(`New!`) === 0 ? str : `New! ${str}`;
 console.log(addNew(`New! Offers`));
 // === strict operator
-
+// ? str : turnary operator
 //- RETURN LINK -//
 https://youtu.be/N65RvNkZFGE?t=659
