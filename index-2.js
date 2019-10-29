@@ -15,7 +15,7 @@ console.log(makeNewString('ab'));
 //Excercise 2: Write a JS program to extract the first half of a 
 // string of even length.
 
-
+const firstHalf = (str) => str.slice(0, str.length / 2);
 
 
 // Return Link: https://www.youtube.com/watch?v=U0Ce27lA7R4&feature=youtu.be
