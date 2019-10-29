@@ -17,5 +17,8 @@ console.log(makeNewString('ab'));
 
 const firstHalf = (str) => str.slice(0, str.length / 2);
 
+console.log(firstHalf('temp'));
+console.log(firstHalf('temple'));
+console.log(firstHalf('temples'));
 
 // Return Link: https://www.youtube.com/watch?v=U0Ce27lA7R4&feature=youtu.be
