@@ -87,41 +87,38 @@ console.log(addNew(`New! Offers`));
 //     }
 //   }
   
-constructor () {
-    this.storage = Array();   
-} 
 
-class Stack {
-    constructor () {
-        this.storage = Array();   
-    } 
-    numOfItems() {
-    if (this.storage.length === 0) {
-        return `There are no items in your ${this.storage}`
-    } else {
-        return this.storage.length;
-    }
-    }
-    add(ex){
-        this.storage.push(ex);
-    }
-    remove(ex){
-        this.storage.pop(ex);
-    }
-}
+// class Stack {
+//     constructor () {
+//         this.storage = Array();   
+//     } 
+//     numOfItems() {
+//     if (this.storage.length === 0) {
+//         return `There are no items in your ${this.storage}`
+//     } else {
+//         return this.storage.length;
+//     }
+//     }
+//     add(ex){
+//         this.storage.push(ex);
+//     }
+//     remove(ex){
+//         this.storage.pop(ex);
+//     }
+// }
 
 
-const myStack = new Stack();
-console.log(myStack.numOfItems()); // <--- "There are no items in your Stack."
-myStack.add('first');
-myStack.add('second');
-myStack.add('third');
-console.log(myStack.numOfItems()); // <--- 3
-console.log(myStack.storage);      // <--- [ 'first', 'second', 'third' ]
-myStack.remove();
-console.log(myStack.storage);      // <--- [ 'first', 'second' ]
-myStack.remove();
-console.log(myStack.storage);      // <--- [ 'first' ]
-myStack.remove();
-console.log(myStack.storage);      // <--- []
-console.log(myStack.numOfItems()); // <--- "There are no items in your Stack."
+// const myStack = new Stack();
+// console.log(myStack.numOfItems()); // <--- "There are no items in your Stack."
+// myStack.add('first');
+// myStack.add('second');
+// myStack.add('third');
+// console.log(myStack.numOfItems()); // <--- 3
+// console.log(myStack.storage);      // <--- [ 'first', 'second', 'third' ]
+// myStack.remove();
+// console.log(myStack.storage);      // <--- [ 'first', 'second' ]
+// myStack.remove();
+// console.log(myStack.storage);      // <--- [ 'first' ]
+// myStack.remove();
+// console.log(myStack.storage);      // <--- []
+// console.log(myStack.numOfItems()); // <--- "There are no items in your Stack."

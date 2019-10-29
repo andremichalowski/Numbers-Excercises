@@ -12,6 +12,9 @@ console.log(makeNewString('abc123abc123'));
 console.log(makeNewString('ab'));
 
 
+//Excercise 2: Write a JS program to extract the first half of a 
+// string of even length.
+
 
 
 
