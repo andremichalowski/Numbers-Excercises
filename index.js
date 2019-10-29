@@ -2,7 +2,8 @@
 // and return true if one of the number is 100 or if 
 // the sum of the two numbers is 100. 
 
-const isEqualTo100 = (a,b) => a === 100 || b === 100 || (a + b) === 100;
+const isEqualTo100 = (a,b) => 
+a === 100 || b === 100 || (a + b) === 100;
 
 console.log(isEqualTo100(100,0));
 console.log(isEqualTo100(0,100));
@@ -57,7 +58,7 @@ console.log(formatDate());
 // If the given string begins with "New!" already then return the original string.
 
 const addNew = (str) => 
-    str.indexof(`New!`) === 0 ? str : `New! ${str}`;
+    str.indexOf(`New!`) === 0 ? str : `New! ${str}`;
 console.log(addNew(`New! Offers`));
 // === strict operator
 // ? str : turnary operator
@@ -66,3 +67,61 @@ console.log(addNew(`New! Offers`));
 
 //- RETURN LINK -//
 // JS-I: https://youtu.be/N65RvNkZFGE?t=659
+
+
+// class Stack {
+//     constructor () {
+//       this.storage = Array();
+//     }
+//     add(item) {
+//       this.storage.push(item);
+//     }
+//     remove() {
+//       return this.storage.pop();
+//     }
+//     numOfItems() {
+//       if (this.storage.length === 0) {
+//         return `There are no items in your ${this.constructor.name}.`;
+//       }  
+//       return this.storage.length;
+//     }
+//   }
+  
+constructor () {
+    this.storage = Array();   
+} 
+
+class Stack {
+    constructor () {
+        this.storage = Array();   
+    } 
+    numOfItems() {
+    if (this.storage.length === 0) {
+        return `There are no items in your ${this.storage}`
+    } else {
+        return this.storage.length;
+    }
+    }
+    add(ex){
+        this.storage.push(ex);
+    }
+    remove(ex){
+        this.storage.pop(ex);
+    }
+}
+
+
+const myStack = new Stack();
+console.log(myStack.numOfItems()); // <--- "There are no items in your Stack."
+myStack.add('first');
+myStack.add('second');
+myStack.add('third');
+console.log(myStack.numOfItems()); // <--- 3
+console.log(myStack.storage);      // <--- [ 'first', 'second', 'third' ]
+myStack.remove();
+console.log(myStack.storage);      // <--- [ 'first', 'second' ]
+myStack.remove();
+console.log(myStack.storage);      // <--- [ 'first' ]
+myStack.remove();
+console.log(myStack.storage);      // <--- []
+console.log(myStack.numOfItems()); // <--- "There are no items in your Stack."
