@@ -31,4 +31,11 @@ const concatenate = (str1, str2) =>
     console.log(concatenate('abc','def'));
     console.log(concatenate('Junior','Developer'));
 
+
+//Excercise 4: Given two values, 
+//write a JavaScript program to find out which one is nearest to 100.
+
+    
+
+
 // Return Link: https://www.youtube.com/watch?v=U0Ce27lA7R4&feature=youtu.be
