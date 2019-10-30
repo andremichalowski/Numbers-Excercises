@@ -45,7 +45,7 @@ const concatenate = (str1, str2) =>
 
     const closestTo100 = (a,b) => (100 - a) < (100 - b) ? a : b;
 
-    
+    console.log(closeTo(99, 25));
 
 
 // Return Link: https://www.youtube.com/watch?v=U0Ce27lA7R4&feature=youtu.be
