@@ -21,4 +21,9 @@ console.log(firstHalf('temp'));
 console.log(firstHalf('temple'));
 console.log(firstHalf('temples'));
 
+//Excercise 3: Write a JavaScript program to 
+// concatenate two strings except their first character.
+
+
+
 // Return Link: https://www.youtube.com/watch?v=U0Ce27lA7R4&feature=youtu.be
