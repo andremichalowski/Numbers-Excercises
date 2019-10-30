@@ -51,7 +51,8 @@ const concatenate = (str1, str2) =>
 //Excercise 5: Write a JavaScript program 
 //to check a given string contains 2 to 4 occurences of a specified character.
 
-
+const countChars = (str, char) => 
+    str.split('').filter(ch => ch === char ).length;
 
 
 // Return Link: https://www.youtube.com/watch?v=U0Ce27lA7R4&feature=youtu.be
