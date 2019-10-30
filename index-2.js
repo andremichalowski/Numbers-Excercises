@@ -62,4 +62,5 @@ console.log(contains2To4('oh!', 'o'));
 console.log(contains2To4('oooh!', 'o'));
 console.log(contains2To4('ooooh!', 'o'));
 console.log(contains2To4('oooooh!', 'o'));
-// Return Link: https://www.youtube.com/watch?v=U0Ce27lA7R4&feature=youtu.be
+
+// Return Link: https://www.youtube.com/watch?v=0_sbUwVU32k
