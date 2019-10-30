@@ -35,7 +35,15 @@ const concatenate = (str1, str2) =>
 //Excercise 4: Given two values, 
 //write a JavaScript program to find out which one is nearest to 100.
 
-    
+    const closeTo = (x, y) => {
+        if (100 - x < 100 - y) {
+            return `${x} is closer to 100 than ${y}`;
+        } else {
+            return `${y} is closer to 100 than ${x}`;
+        }
+    };
+
+
 
 
 // Return Link: https://www.youtube.com/watch?v=U0Ce27lA7R4&feature=youtu.be
