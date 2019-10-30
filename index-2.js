@@ -54,5 +54,6 @@ const concatenate = (str1, str2) =>
 const countChars = (str, char) => 
     str.split('').filter(ch => ch === char ).length;
 
-
+    const countChars = (str, char) => 
+        countChars(str, char) >= 2 && countChars(str, char) <= 4;
 // Return Link: https://www.youtube.com/watch?v=U0Ce27lA7R4&feature=youtu.be
